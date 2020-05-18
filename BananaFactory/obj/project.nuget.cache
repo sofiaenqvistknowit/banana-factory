@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tHP8mis1vHU8wtHXSYAy3XUQ7urRfwjob4+K3z84sden13hv/NJ5cb2OjR63yFpKiAD6urVzcdEid3P5aD1uyA==",
+  "dgSpecHash": "pZGgGcicl6ZkQYXg/gL9N1v+jbf/wEYX5TTHZZuypyQf+3BatS8DG4EQL6GteMDnoYVNfz/vuc9rcdENMEf19g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+  "projectFilePath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pontu\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pontu\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

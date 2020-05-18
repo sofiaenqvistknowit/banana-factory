@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj": {}
+    "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj": {
+    "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+        "projectUniqueName": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
         "projectName": "BananaFactory.API",
-        "projectPath": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+        "projectPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
         "packagesPath": "C:\\Users\\pontu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\obj\\",
+        "outputPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

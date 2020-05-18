@@ -1,0 +1,9 @@
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.deps.json
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.dll
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.pdb
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csprojAssemblyReference.cache
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfoInputs.cache
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfo.cs
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CoreCompileInputs.cache
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.dll
+C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.pdb

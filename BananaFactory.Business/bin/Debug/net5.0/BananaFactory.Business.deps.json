@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BananaFactory.Business/1.0.0": {
+        "runtime": {
+          "BananaFactory.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BananaFactory.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
