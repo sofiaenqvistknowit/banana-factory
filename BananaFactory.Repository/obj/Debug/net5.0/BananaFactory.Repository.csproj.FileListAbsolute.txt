@@ -1,0 +1,5 @@
+C:\Users\pontu\source\repos\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.deps.json
+C:\Users\pontu\source\repos\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.dll
+C:\Users\pontu\source\repos\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.csprojAssemblyReference.cache
+C:\Users\pontu\source\repos\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.AssemblyInfoInputs.cache
+C:\Users\pontu\source\repos\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.AssemblyInfo.cs
