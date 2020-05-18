@@ -4,14 +4,16 @@ using BananaFactory.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BananaFactory.Repository.Migrations
 {
     [DbContext(typeof(BananaFactoryDbContext))]
-    partial class BananaFactoryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200518124951_DataModels")]
+    partial class DataModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
