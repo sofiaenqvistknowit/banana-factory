@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\BananaFactory",
-    "\\BananaFactory.Business",
-    "\\BananaFactory.Model",
-    "\\BananaFactory.Repository",
-    "\\BananaFactory.Repository\\Migrations",
-    "\\BananaFactory\\Controllers"
+    "\\BananaFactoryClient",
+    "\\BananaFactoryClient\\src"
   ],
-  "SelectedNode": "\\BananaFactory\\Controllers\\LoginController.cs",
+  "SelectedNode": "\\BananaFactory\\BananaFactory.sln",
   "PreviewInSolutionExplorer": false
 }

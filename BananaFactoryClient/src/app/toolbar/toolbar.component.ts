@@ -1,4 +1,6 @@
 import { Component, OnInit, Input} from '@angular/core';
+import {Product} from '../../environments/models/Product.model'
+import { ProductType } from 'src/environments/models/ProductType.model';
 
 @Component({
   selector: 'app-toolbar',
@@ -6,11 +8,10 @@ import { Component, OnInit, Input} from '@angular/core';
   styleUrls: ['./toolbar.component.css']
 })
 export class ToolbarComponent implements OnInit {
-  @Input()
-  public productTypes: string[] = [];
-  @Input()
-  public getProductTypeCallback:Function;
-  currentProductType: string = null;
+  @Input() public productTypes: ProductType[] = [];
+  @Input() public getProductTypeCallback:Function;
+  @Input() public privateOrCompanyCallback:Function;
+  currentProductType: string = "Jo";
   numberOfProductsInChart = 0;
   
   public ngOnInit() {
@@ -19,12 +20,7 @@ export class ToolbarComponent implements OnInit {
   constructor() {
   }
 
-  typeCallback = (e) => {
-    console.log(e.target.value);
-  }
 
-  goToPrivate(e) {
-    alert(e.target.value);
-  }
+
 
 }
