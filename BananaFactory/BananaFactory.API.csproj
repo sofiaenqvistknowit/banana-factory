@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BananaFactory.Business\BananaFactory.Business.csproj" />
     <ProjectReference Include="..\BananaFactory.Model\BananaFactory.Model.csproj" />
+    <ProjectReference Include="..\BananaFactory.Repository\BananaFactory.Repository.csproj" />
   </ItemGroup>
 
 

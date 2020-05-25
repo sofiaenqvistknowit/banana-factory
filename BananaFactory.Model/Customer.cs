@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace BananaFactory.Model
 {
-    public class Customer
+    public class Customer: BaseModel
     {
         public int CustomerID { get; set; }
 

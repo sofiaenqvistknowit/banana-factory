@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using BananaFactory.Business;
+using BananaFactory.Model.DTO;
+
 
 namespace BananaFactory.API.Controllers
 {
@@ -12,21 +15,18 @@ namespace BananaFactory.API.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-		     private readonly ILogger<CustomerController> _logger;
-		public CustomerController(ILogger<CustomerController> logger){
+        private readonly ILogger<CustomerController> _logger;
+        private readonly CustomerService _customerService;
+        public CustomerController(ILogger<CustomerController> logger, CustomerService customerService)
+        {
             _logger = logger;
-		}
+            _customerService = customerService;
+        }
 
         [HttpGet]
-        public CustomerDto Get()
+        public List<CustomerDto> GetAll()
         {
-			return new CustomerDto
-            {
-                Surname = "Sofia",
-                Lastname = "Enqvist",
-                ZipCode = "71193",
-                City = "Lindesberg"
-            };
-		}
+            return _customerService.GetAll();
+        }
     }
 }

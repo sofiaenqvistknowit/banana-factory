@@ -18,10 +18,12 @@ namespace BananaFactory.API.Controllers
             _logger = logger;
         }
 
-        //public string Get()
-        //{
-        //    return "Välkommen";
-        //}
+        [HttpGet]
+        public string Get()
+        {
+            return "Välkommen";
+        }
+
 
         public string Login([FromBody] UserDto user)
         {
