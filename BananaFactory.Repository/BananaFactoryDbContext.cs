@@ -8,7 +8,12 @@ namespace BananaFactory.Repository
     public class BananaFactoryDbContext : DbContext
     {
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Order> Order { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderProduct> OrderProducts { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ProductType> ProductType { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -49,9 +54,9 @@ namespace BananaFactory.Repository
                 .Property(o => o.SupplierID)
                 .ValueGeneratedOnAdd();
 
-            modelBuilder.Entity<Image>()
+            modelBuilder.Entity<ProductImage>()
                 .HasKey(o => new { o.ImageID });
-            modelBuilder.Entity<Image>()
+            modelBuilder.Entity<ProductImage>()
                 .Property(o => o.ImageID)
                 .ValueGeneratedOnAdd();
 
@@ -60,6 +65,8 @@ namespace BananaFactory.Repository
             modelBuilder.Entity<ProductType>()
                 .Property(o => o.ProductTypeID)
                 .ValueGeneratedOnAdd();
+
+
         }
     }
 }
