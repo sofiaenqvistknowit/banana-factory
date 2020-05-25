@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IsOS4b+xTVKcb2TkvFXMS4vgfaoFfPfux7uuPMbzGdCDXKbnIajQuAxwESVPQDJsXhBHACk5uBFHIRdUQSWLQg==",
+  "dgSpecHash": "jTFnQKFo3pKlM5YDyTIn7u7gj000jNr9vr4uUtYPHpNKWgESULloVOsN2CHUQHpO+yjpvJUbG2VzKRXmHbwtLw==",
   "success": true,
   "projectFilePath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sofia\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\sofia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\sofia\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sofia\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.0-preview1.20021.1\\microsoft.data.sqlclient.2.0.0-preview1.20021.1.nupkg.sha512",
     "C:\\Users\\sofia\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0-preview.3.20181.2\\microsoft.entityframeworkcore.5.0.0-preview.3.20181.2.nupkg.sha512",
