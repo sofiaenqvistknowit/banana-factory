@@ -1,11 +1,12 @@
-<div class="navbar-brand" style="padding: 1em; width: 100%; background-color: white;">
+<div class="navbar-brand" style=" width: 100%; background-color: white;">
     <div>
         <div class="form-inline">
-            <div style="margin-left: 2em;">
-                <img width="150" alt="Angular Logo" src="assets\img\BananaFactory.PNG" />
+            <div style="margin-left: 1.6em;">
+                <img width="200" alt="Angular Logo" src="assets\img\BananaFactory.PNG" />
             </div>
-            <div style="margin-left:10em">
-                <input class="form-control searchInput" type="search" placeholder="sök produkter...">
+            <div style="margin-left:5em">
+                <input class="form-control searchInput" type="search" placeholder="sök produkter..."
+                    style="min-width: 25em; font-family:sans-serif; font:x-large">
 
                 <button class="btn btn-secondary">
                     <span>
@@ -14,12 +15,12 @@
                 </button>
 
             </div>
-            <div style="margin-left: 20em;">
+            <div style="margin-left: 14.3em;">
                 <button class="btn btn-secondary">
                     <span><img width="20" src="assets\img\shopping-cart.png"></span>
                     <span style="margin-left: .5em;">Kundvagn ({{numberOfProductsInChart}})</span>
                 </button>
-                <button class="btn btn-primary" style="margin-left: 2px;">
+                <button class="btn btn-primary" >
 
                     <span>Till kassan</span>
                     <span>
@@ -29,16 +30,25 @@
             </div>
         </div>
     </div>
-    <ul class="nav" style="margin-left: 2em; margin-top: 1em; width: 100%;">
-        <li *ngFor="let type of productTypes">
-            <button class="btn btn-primary" style="margin-left: 2px; height: 80%;" value="{{type}}" (click)="getProductTypeCallback($event)">{{type}}</button>
-        </li>
-            <li style="margin-left: 15em;">
-                <button class="btn btn-secondary text-monospace " style="height: 80%;" (click)="goToPrivate($event)" value="Private">Privat</button>
+    <div style="float: flex;">
+        <ul class="nav" style="margin-left: 2em; margin-top: 1em; min-width: 100%;">
+            <li *ngFor="let type of productTypes">
+                <button class="btn btn-primary" style="margin-left: 2px; height: 80%;min-width: 5em;"
+                    value="{{[type.ProductTypeId,type.ProductType]}}"
+                    (click)="getProductTypeCallback($event)">{{type.ProductType}}</button>
             </li>
-            <li style="margin-left: 0.1em;">
-                <button class="btn btn-secondary text-monospace " style=" height: 80%;" (click)="goToPrivate($event)" value="Company">Företag</button>
+
+        </ul>
+        <ul class="nav" style=" float:right; margin-right: 3em">
+            <li>
+                <button class="btn btn-secondary text-monospace " style="height: 80%;"
+                    (click)="privateOrCompanyCallback($event)" value="Private">Privat</button>
             </li>
-    </ul>
+            <li>
+                <button class="btn btn-secondary text-monospace " style=" height: 80%;"
+                    (click)="privateOrCompanyCallback($event)" value="Company">Företag</button>
+            </li>
+        </ul>
+    </div>
 
 </div>

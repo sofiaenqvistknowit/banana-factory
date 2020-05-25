@@ -1,10 +1,48 @@
 <div style="background-color: lightgray;">
-  <div style="background-color: rgba(34, 29, 29,0.5); color: lightgray; padding:0.2em;">
-    <span>Bli medlemm</span><span>Logga in</span><span>Kundservice</span><span>Hitta Lagershop & Öppettider</span>
+  <div style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">
+    <span style="margin-left: 2.5em;" *ngIf="loggedIn === false">
+
+      <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">
+        <span>
+          <img width="20" src="assets\img\lock.png">
+        </span>
+        Logga in
+
+
+      </button>
+      <span>
+        <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">Bli medlemm</button>
+      </span>
+    </span>
+    <span style="margin-left: 3.4em;" *ngIf="loggedIn === true">
+      <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">
+        <span>
+          <img width="20">
+        </span>
+        Mina sidor
+      </button>
+      <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">
+        <span>
+          <img width="20" src="assets\img\unlocked.png">
+        </span>
+        logga ut
+      </button>
+
+    </span>
+
+
+
+    <span style="float: right; margin-right: 3.5em;">
+      <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">Hitta Lagershop & Öppettider</button>
+    </span>
+    <span style="float: right; position: relative;">
+      <button style="background-color: rgba(34, 29, 29,0.5); color: lightgray;">Kundservice</button>
+    </span>
   </div>
   <div>
-    <app-toolbar [productTypes]="productTypes" [getProductTypeCallback]="typeCallback"></app-toolbar>
-
+    <app-toolbar [productTypes]="productTypes" [getProductTypeCallback]="typeCallback"
+      [privateOrCompanyCallback]="privateOrCompany"></app-toolbar>
   </div>
+  <app-context [productType]="currentProductType"></app-context>
   <router-outlet></router-outlet>
 </div>

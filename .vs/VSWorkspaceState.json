@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\BananaFactory",
-    "\\BananaFactory.Business",
-    "\\BananaFactory.Model",
-    "\\BananaFactory.Repository"
+    "\\BananaFactoryClient",
+    "\\BananaFactoryClient\\src"
   ],
   "SelectedNode": "\\BananaFactory\\BananaFactory.sln",
   "PreviewInSolutionExplorer": false
