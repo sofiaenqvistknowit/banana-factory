@@ -10,6 +10,9 @@ namespace BananaFactory.Model
     {
         public int ProductTypeID { get; set; }
         public string ProductTypeName { get; set; }
+        public int? ParentProductTypeID { get; set; }
+        public ProductType ParentProductType { get; set; }
         public ICollection<Product> Products { get; set; }
+        public ICollection<ProductType> ChildProductTypes { get; set; }
     }
 }

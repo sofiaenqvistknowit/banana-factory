@@ -19,7 +19,7 @@ namespace BananaFactory.Model
         public string Size { get; set; }
         public float Weight { get; set; }
         public decimal Price { get; set; }
-        public ICollection<Image> Images { get; set; }
+        public ICollection<ProductImage> Images { get; set; }
         public ICollection<OrderProduct> Orders { get; set; }
     }
 }

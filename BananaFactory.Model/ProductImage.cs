@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BananaFactory.Model
 {
-    public class Image
+    public class ProductImage
     {
         public int ImageID { get; set; }
         public byte[] ImageData { get; set; }

@@ -52,26 +52,6 @@ namespace BananaFactory.Repository.Migrations
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("BananaFactory.Model.Image", b =>
-                {
-                    b.Property<int>("ImageID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<byte[]>("ImageData")
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<int>("ProductID")
-                        .HasColumnType("int");
-
-                    b.HasKey("ImageID");
-
-                    b.HasIndex("ProductID");
-
-                    b.ToTable("Image");
-                });
-
             modelBuilder.Entity("BananaFactory.Model.Order", b =>
                 {
                     b.Property<int>("OrderID")
@@ -104,17 +84,17 @@ namespace BananaFactory.Repository.Migrations
 
                     b.HasIndex("CustomerID");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
 
-                    b.HasCheckConstraint("CK_Order_DeliveryStatus_Enum_Constraint", "[DeliveryStatus] IN(0, 1, 2, 3, 4, 5, 6)");
+                    b.HasCheckConstraint("CK_Orders_DeliveryStatus_Enum_Constraint", "[DeliveryStatus] IN(0, 1, 2, 3, 4, 5, 6)");
 
-                    b.HasCheckConstraint("CK_Order_DeliveryType_Enum_Constraint", "[DeliveryType] IN(0, 1, 2)");
+                    b.HasCheckConstraint("CK_Orders_DeliveryType_Enum_Constraint", "[DeliveryType] IN(0, 1, 2)");
 
-                    b.HasCheckConstraint("CK_Order_OrderStatus_Enum_Constraint", "[OrderStatus] IN(0, 1, 2)");
+                    b.HasCheckConstraint("CK_Orders_OrderStatus_Enum_Constraint", "[OrderStatus] IN(0, 1, 2)");
 
-                    b.HasCheckConstraint("CK_Order_PaymentStatus_Enum_Constraint", "[PaymentStatus] IN(0, 1, 2)");
+                    b.HasCheckConstraint("CK_Orders_PaymentStatus_Enum_Constraint", "[PaymentStatus] IN(0, 1, 2)");
 
-                    b.HasCheckConstraint("CK_Order_PaymentType_Enum_Constraint", "[PaymentType] IN(0, 1, 2)");
+                    b.HasCheckConstraint("CK_Orders_PaymentType_Enum_Constraint", "[PaymentType] IN(0, 1, 2)");
                 });
 
             modelBuilder.Entity("BananaFactory.Model.OrderProduct", b =>
@@ -139,7 +119,7 @@ namespace BananaFactory.Repository.Migrations
 
                     b.HasIndex("ProductID");
 
-                    b.ToTable("OrderProduct");
+                    b.ToTable("OrderProducts");
                 });
 
             modelBuilder.Entity("BananaFactory.Model.Product", b =>
@@ -176,9 +156,29 @@ namespace BananaFactory.Repository.Migrations
 
                     b.HasIndex("SupplierID");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
 
-                    b.HasCheckConstraint("CK_Product_Color_Enum_Constraint", "[Color] IN(0, 1, 2, 3)");
+                    b.HasCheckConstraint("CK_Products_Color_Enum_Constraint", "[Color] IN(0, 1, 2, 3)");
+                });
+
+            modelBuilder.Entity("BananaFactory.Model.ProductImage", b =>
+                {
+                    b.Property<int>("ImageID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ImageID");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("BananaFactory.Model.ProductType", b =>
@@ -188,10 +188,15 @@ namespace BananaFactory.Repository.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("ParentProductTypeID")
+                        .HasColumnType("int");
+
                     b.Property<string>("ProductTypeName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ProductTypeID");
+
+                    b.HasIndex("ParentProductTypeID");
 
                     b.ToTable("ProductType");
                 });
@@ -229,16 +234,7 @@ namespace BananaFactory.Repository.Migrations
 
                     b.HasKey("SupplierID");
 
-                    b.ToTable("Supplier");
-                });
-
-            modelBuilder.Entity("BananaFactory.Model.Image", b =>
-                {
-                    b.HasOne("BananaFactory.Model.Product", "Product")
-                        .WithMany("Images")
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.ToTable("Suppliers");
                 });
 
             modelBuilder.Entity("BananaFactory.Model.Order", b =>
@@ -278,6 +274,22 @@ namespace BananaFactory.Repository.Migrations
                         .HasForeignKey("SupplierID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BananaFactory.Model.ProductImage", b =>
+                {
+                    b.HasOne("BananaFactory.Model.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BananaFactory.Model.ProductType", b =>
+                {
+                    b.HasOne("BananaFactory.Model.ProductType", "ParentProductType")
+                        .WithMany("ChildProductTypes")
+                        .HasForeignKey("ParentProductTypeID");
                 });
 #pragma warning restore 612, 618
         }
