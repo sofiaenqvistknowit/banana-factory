@@ -1,0 +1,8 @@
+<div  style="min-height: 500px;">
+    <label>{{productType}}</label>
+    <ul class="nav" style="margin-left: 2em; margin-top: 1em; min-width: 100%; list-style-type:none;">
+    <li *ngFor="let type of products">
+        <button class="btn btn-primary" style="margin-left: 2px; height: 80%;">{{type.Name}}</button>
+    </li>
+</ul>
+</div>
