@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using BananaFactory.Business;
+using BananaFactory.Model.DTO;
+
 
 namespace BananaFactory.API.Controllers
 {
@@ -13,11 +16,24 @@ namespace BananaFactory.API.Controllers
     public class OrderController : ControllerBase
     {
 		     private readonly ILogger<OrderController> _logger;
-		public OrderController(ILogger<OrderController> logger){
+		private readonly OrderService _orderService;
+
+		public OrderController(ILogger<OrderController> logger, OrderService orderService){
 			_logger = logger;
+			_orderService = orderService;
 		}
-		public void Get() {
-			
+
+		[HttpGet]
+		[Route("GetAll")]
+		public List<OrderDto> GetAll() {
+			return _orderService.GetAll();
 		}
-    }
+
+		[HttpGet]
+		[Route("GetById")]
+		public OrderDto GetById(int id)
+		{
+            return _orderService.GetById(id);
+		}
+	}
 }

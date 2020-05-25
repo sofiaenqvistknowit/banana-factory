@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace BananaFactory.Business.Interfaces
 {
-    public interface ICustomerService
+    public interface IOrderService
     {
-        public List<CustomerDto> GetAll();
-        public CustomerDto GetByName(string v);
-        public CustomerDto GetById(int Id);
+        public List<OrderDto> GetAll();
+        public OrderDto GetById(int Id);
     }
 }

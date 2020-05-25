@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {}
+    "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
+    "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
+        "projectUniqueName": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
         "projectName": "BananaFactory.Model",
-        "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
+        "projectPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
         "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\obj\\",
+        "outputPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -6,17 +6,17 @@ C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CoreCompileInputs.cache
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.dll
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.pdb
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.deps.json
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.dll
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.pdb
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Model.dll
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Repository.dll
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Model.pdb
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Repository.pdb
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csprojAssemblyReference.cache
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfoInputs.cache
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfo.cs
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CoreCompileInputs.cache
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CopyComplete
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.dll
-C:\Development\Interna projekt\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.pdb
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.deps.json
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.dll
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Business.pdb
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Model.dll
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Repository.dll
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Model.pdb
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\bin\Debug\net5.0\BananaFactory.Repository.pdb
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csprojAssemblyReference.cache
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfoInputs.cache
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.AssemblyInfo.cs
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CoreCompileInputs.cache
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.csproj.CopyComplete
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.dll
+C:\Development\Interna projekt\BananFabriken\banana-factory\BananaFactory.Business\obj\Debug\net5.0\BananaFactory.Business.pdb

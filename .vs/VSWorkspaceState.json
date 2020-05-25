@@ -3,9 +3,14 @@
     "",
     "\\BananaFactory",
     "\\BananaFactory.Business",
+    "\\BananaFactory.Business\\bin",
+    "\\BananaFactory.Business\\bin\\Debug",
+    "\\BananaFactory.Business\\bin\\Debug\\net5.0",
     "\\BananaFactory.Model",
-    "\\BananaFactory.Repository"
+    "\\BananaFactory.Model\\bin",
+    "\\BananaFactory.Model\\bin\\Debug",
+    "\\BananaFactory.Model\\bin\\Debug\\net5.0"
   ],
-  "SelectedNode": "\\BananaFactory\\BananaFactory.sln",
+  "SelectedNode": "\\BananaFactory\\BananaFactory.API.csproj",
   "PreviewInSolutionExplorer": false
 }

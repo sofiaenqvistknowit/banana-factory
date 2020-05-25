@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KpYqSSGPrP2zb06Gh6xjOkFpYAyeWVyhMS2fQ4COfi4Emp74X1+6xOAZKHn+wzXrHuG0565XZ3H1qeHvaLmjMQ==",
+  "dgSpecHash": "K0h/AgaRsHAZicbWRXfTQFHbK2XRvbsBbXhwE7UwzIFaQ8Z3lRy8vHrjOQxV46II5O0pfWhNpcrH3iNqLoflWQ==",
   "success": true,
-  "projectFilePath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj",
+  "projectFilePath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sofia\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\sofia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

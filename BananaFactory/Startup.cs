@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using BananaFactory.Repository.Repositories;
+using BananaFactory.Repository.Interfaces;
+using BananaFactory.Business.Interfaces;
+using BananaFactory.Business;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,14 +32,16 @@ namespace BananaFactory
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
-            services.AddDbContext<BananaFactory.Repository.BananaFactoryDbContext>();
+            services.AddDbContext<Repository.BananaFactoryDbContext>();
 
             services.AddControllers().AddControllersAsServices();
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-            services.AddScoped<Business.CustomerService>();
+            services.AddScoped<CustomerService>();
             services.AddScoped<CustomerRepository>();
+            services.AddScoped<OrderService>();
+            services.AddScoped<OrderRepository>();
 
         }
 

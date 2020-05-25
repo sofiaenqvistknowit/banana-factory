@@ -8454,11 +8454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+      "projectUniqueName": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
       "projectName": "BananaFactory.API",
-      "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+      "projectPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
       "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\obj\\",
+      "outputPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8478,14 +8478,14 @@
       "frameworks": {
         "net5.0": {
           "projectReferences": {
-            "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj": {
-              "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj"
+            "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj": {
+              "projectPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Business\\BananaFactory.Business.csproj"
             },
-            "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
-              "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj"
+            "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
+              "projectPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj"
             },
-            "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {
-              "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj"
+            "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {
+              "projectPath": "C:\\Development\\Interna projekt\\BananFabriken\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj"
             }
           }
         }

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BananaFactory.Model
+namespace BananaFactory.Model.DTO
 {
-    public class Order: BaseModel
+    public class OrderDto
     {
         public int OrderID { get; set; }
         public int CustomerID { get; set; }
@@ -17,7 +13,5 @@ namespace BananaFactory.Model
         public PaymentType PaymentType { get; set; }
         public DeliveryType DeliveryType { get; set; }
         public DeliveryStatus DeliveryStatus { get; set; }
-
-        public ICollection<OrderProduct> Orders { get; set; }
     }
 }

@@ -25,9 +25,26 @@ namespace BananaFactory.API.Controllers
         }
 
         [HttpGet]
+        [Route("GetAll")]
         public List<CustomerDto> GetAll()
         {
             return _customerService.GetAll();
         }
+
+        [HttpGet]
+        [Route("GetById")]
+        public CustomerDto GetById(int id)
+        {
+            return _customerService.GetById(id);
+        }
+
+        [HttpGet]
+        [Route("GetByName")]
+        public CustomerDto GetByName(string name)
+        {
+            return _customerService.GetByName(name);
+        }
+
+
     }
 }
