@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace BananaFactory.Model
 {
     public class Customer
     {
-        // ReSharper disable once InconsistentNaming
         public int CustomerID { get; set; }
 
         public string Surname { get; set; }
@@ -14,5 +15,7 @@ namespace BananaFactory.Model
         public string City { get; set; }
         public string Email { get; set; }
         public string PasswordHash { get; set; }
+
+        private ICollection<Order> Orders { get; set; }
     }
 }
