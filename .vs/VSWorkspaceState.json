@@ -6,6 +6,6 @@
     "\\BananaFactory.Model",
     "\\BananaFactory.Repository"
   ],
-  "SelectedNode": "\\BananaFactory\\BananaFactory.sln",
+  "SelectedNode": "\\BananaFactory\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }
