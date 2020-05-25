@@ -4,8 +4,10 @@
     "\\BananaFactory",
     "\\BananaFactory.Business",
     "\\BananaFactory.Model",
-    "\\BananaFactory.Repository"
+    "\\BananaFactory.Repository",
+    "\\BananaFactory.Repository\\Migrations",
+    "\\BananaFactory\\Controllers"
   ],
-  "SelectedNode": "\\BananaFactory\\BananaFactory.sln",
+  "SelectedNode": "\\BananaFactory\\Controllers\\LoginController.cs",
   "PreviewInSolutionExplorer": false
 }

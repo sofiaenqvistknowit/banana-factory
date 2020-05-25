@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {}
+    "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
+    "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
+        "projectUniqueName": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
         "projectName": "BananaFactory.Model",
-        "projectPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
-        "packagesPath": "C:\\Users\\pontu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\obj\\",
+        "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj",
+        "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\pontu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,20 +60,20 @@
         }
       }
     },
-    "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {
+    "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj",
+        "projectUniqueName": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj",
         "projectName": "BananaFactory.Repository",
-        "projectPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj",
-        "packagesPath": "C:\\Users\\pontu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Repository\\obj\\",
+        "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\BananaFactory.Repository.csproj",
+        "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\pontu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -87,8 +87,8 @@
         "frameworks": {
           "net5.0": {
             "projectReferences": {
-              "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
-                "projectPath": "C:\\Users\\pontu\\Source\\Repos\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj"
+              "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
+                "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj"
               }
             }
           }

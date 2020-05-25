@@ -13,3 +13,18 @@ C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Repository\obj\Debug\ne
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Model.dll
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Model.pdb
 C:\Users\pontu\Source\Repos\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.csproj.CopyComplete
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.deps.json
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.runtimeconfig.json
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.runtimeconfig.dev.json
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.dll
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Repository.pdb
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Model.dll
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\bin\Debug\net5.0\BananaFactory.Model.pdb
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.csprojAssemblyReference.cache
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.AssemblyInfoInputs.cache
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.AssemblyInfo.cs
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.csproj.CoreCompileInputs.cache
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.csproj.CopyComplete
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.dll
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.pdb
+C:\Development\Interna projekt\banana-factory\BananaFactory.Repository\obj\Debug\net5.0\BananaFactory.Repository.genruntimeconfig.cache

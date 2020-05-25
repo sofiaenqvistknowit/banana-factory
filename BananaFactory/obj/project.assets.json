@@ -310,6 +310,15 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/2.1.2": {
         "type": "package",
         "compile": {
@@ -1797,6 +1806,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BananaFactory.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BananaFactory.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BananaFactory.Model.dll": {}
+        }
       }
     }
   },
@@ -2082,6 +2101,20 @@
         "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "sha512": "JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
@@ -6063,31 +6096,38 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BananaFactory.Model/1.0.0": {
+      "type": "project",
+      "path": "../BananaFactory.Model/BananaFactory.Model.csproj",
+      "msbuildProject": "../BananaFactory.Model/BananaFactory.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v5.0": [
+      "BananaFactory.Model >= 1.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 3.1.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pontu\\.nuget\\packages\\": {},
+    "C:\\Users\\sofia\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+      "projectUniqueName": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
       "projectName": "BananaFactory.API",
-      "projectPath": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
-      "packagesPath": "C:\\Users\\pontu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pontu\\source\\repos\\banana-factory\\BananaFactory\\obj\\",
+      "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\BananaFactory.API.csproj",
+      "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\pontu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6100,7 +6140,11 @@
       },
       "frameworks": {
         "net5.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj": {
+              "projectPath": "C:\\Development\\Interna projekt\\banana-factory\\BananaFactory.Model\\BananaFactory.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6112,6 +6156,10 @@
     "frameworks": {
       "net5.0": {
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.2, )"
