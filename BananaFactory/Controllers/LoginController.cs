@@ -22,6 +22,7 @@ namespace BananaFactory.API.Controllers
         public string Get()
         {
             return "Välkommen";
+
         }
 
 

@@ -8,6 +8,7 @@ namespace BananaFactory.Business.Interfaces
 {
     public interface ICustomerService
     {
+
         public List<Model.DTO.CustomerDto> GetAll();
         public Model.DTO.CustomerDto GetByName(string v);
     }

@@ -15,6 +15,7 @@ namespace BananaFactory.API.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
+
         private readonly ILogger<CustomerController> _logger;
         private readonly CustomerService _customerService;
         public CustomerController(ILogger<CustomerController> logger, CustomerService customerService)

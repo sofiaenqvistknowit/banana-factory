@@ -16,7 +16,6 @@ namespace BananaFactory.API.Controllers
 		public OrderController(ILogger<OrderController> logger){
 			_logger = logger;
 		}
-		
 		public void Get() {
 			
 		}
